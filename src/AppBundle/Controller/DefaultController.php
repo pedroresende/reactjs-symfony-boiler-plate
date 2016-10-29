@@ -14,9 +14,7 @@ class DefaultController extends Controller
     public function apiAction(Request $request, $slut = null)
     {
         // replace this example code with whatever you need
-        return $this->render('default/index.html.twig', [
-            'base_dir' => realpath($this->getParameter('kernel.root_dir').'/..').DIRECTORY_SEPARATOR,
-        ]);
+        // Symfony Backend integration
     }
 
     /**
